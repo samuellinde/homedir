@@ -23,8 +23,8 @@ excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes}"
 
 # Configure git and hg
 #
-TM_HG  = "/opt/local/bin/hg"
-TM_GIT = "/opt/local/bin/git"
+TM_HG  = "/usr/local/bin/hg"
+TM_GIT = "/usr/local/bin/git"
 
 # Default editing configuration
 #
@@ -41,7 +41,7 @@ showInvisibles   = true
 spellChecking    = true
 spellingLanguage = 'en'
 
-[ *.{icns,ico,jpg,jpeg,m4v,nib,pdf,png,psd,pyc,rtf,tif,tiff,xib} ]
+[ *.{db,icns,ico,jpg,jpeg,m4v,nib,pdf,png,psd,pyc,rtf,tif,tiff,xib} ]
 binary           = true
 
 [ source ]
